@@ -1,0 +1,98 @@
+body  {
+    font-family: Lora, sans-serif;
+}
+
+h1 , p {
+color: #555428f7;
+
+
+}
+
+.navbar {
+    background: linear-gradient(13deg, rgba(68,58,180,1) 0%, rgba(16,17,3,1) 50%, rgba(150,158,15,1) 100%);
+}
+ #cabecalho .nav .nav-link.active {
+    background-color: rgb(19, 20, 21);
+    background: -webkit-linear-gradient(left, #eeec6063, #00000098);
+
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #e3e363;
+    
+}
+
+
+
+
+.navbar-toggler {
+    background-color:  #e3e363;
+    
+}
+
+
+
+
+#carousel .carousel-inner .carousel-item img {
+   
+    height: 100%;
+    width: 100%;
+}
+
+.section-title  {
+    font-family: Lora, cursive;
+}
+
+
+#sobre-pizza, #cardapio {
+    background:linear-gradient(0deg, rgba(71, 65, 26, 0.203) 0%, rgba(65, 57, 2, 0.163) 100%);
+    
+}
+
+.text-colored {
+    color: #555428f7;
+}
+
+span {
+    color: #4f77dde7;
+}
+
+.nav-cardapio .nav-link.active,
+
+#contato button{
+   
+background:linear-gradient(0deg, rgba(71, 65, 26, 0.421) 0%, rgba(65, 57, 2, 0.507) 100%);
+color:#322424;
+} 
+    
+
+
+
+#contato button:hover {
+    background-color: #4f77dde7;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #3f3f1af7;
+    
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media(max-width:767px) {
+    .carousel-item img {
+        height: 280px;
+
+    }
+}
